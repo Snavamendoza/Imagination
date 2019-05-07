@@ -1,0 +1,64 @@
+.animation1{
+    background-color: red;
+    text-align: center;
+    padding: 25px;
+}
+
+.nav a {
+    text-align: end;
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color:red;
+    transition: 0.3 ease-in-out;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+}
+.button:hover{
+    transition: 0.3 ease-in-out;
+    background-color: black;
+    color: red;
+}
+.h1 {
+    color:black;
+    font-size: 25px;
+    font-style: oblique;
+}
+.h1:hover{
+    color: pink;
+    font-style: unset;
+    transition: 0.3 ease-in-out; 
+}
+#cf {
+    position: sticky;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+    align-content: center;
+  }
+  
+  #cf img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img:hover {
+    opacity:0;
+  }
+  .div{
+      font-size: 30px;
+  }
